@@ -1,0 +1,542 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1662282989374894, "dur": 12376289, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662282989376961, "dur": 27345, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662282989404705, "dur": 38176, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662282989442908, "dur": 1745636, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662282991188546, "dur": 10552723, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662283001741290, "dur": 9891, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662283013873885, "dur": 7513527, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662283013874231, "dur": 16601, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662283013890836, "dur": 52688, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662283013943528, "dur": 897427, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662283014840958, "dur": 6535144, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662283021376105, "dur": 11307, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662283021388172, "dur": 40, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1662283014610254, "dur": 215433, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662283014611531, "dur": 55502, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662283014798323, "dur": 7894, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662283014806222, "dur": 19453, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662283014807123, "dur": 17444, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662283014833932, "dur": 2889, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662283014832615, "dur": 4256, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662283021388424, "dur": 258, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1662283014908982, "dur":1779, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283014910771, "dur":54, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1662283014910839, "dur":24, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1662283014910865, "dur":513, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1662283014911404, "dur":632, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283014912036, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021365798, "dur":198, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021365996, "dur":315, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021366311, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021366317, "dur":49, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021366366, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021366369, "dur":43, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021366412, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021366414, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021366423, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021366425, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021366435, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021366436, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021366445, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021366447, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021366456, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021366458, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021366466, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021366469, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021366477, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021366479, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021366487, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021366489, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021366502, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021366504, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021366514, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021366536, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021366559, "dur":2738, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1662283014918283, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662283014918284, "dur":4892, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662283014923176, "dur":48071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1662283014971252, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662283014971269, "dur":910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1662283014972208, "dur":410893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662283015383109, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662283015383246, "dur":7861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662283015391237, "dur":60818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662283015452061, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662283015452073, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662283015453244, "dur":50122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662283015503373, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662283015503385, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662283015504712, "dur":167115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662283015671835, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662283015671848, "dur":30977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662283015702853, "dur":753337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662283016456198, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662283016456211, "dur":6668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662283016462916, "dur":301896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662283016764819, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662283016764832, "dur":5627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662283016770630, "dur":453740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662283017224375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662283017224385, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662283017225333, "dur":738808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662283017964147, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662283017964157, "dur":1391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662283017965577, "dur":281016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662283018246598, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662283018246606, "dur":11019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662283018257655, "dur":658109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662283018915770, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662283018915780, "dur":935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662283018916745, "dur":1253830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662283020170582, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662283020170594, "dur":8169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662283020178795, "dur":467578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662283020646379, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662283020646391, "dur":10778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662283020657208, "dur":708590, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662283014920429, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662283014920430, "dur":4012, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662283014924442, "dur":334639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1662283015259086, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662283015259109, "dur":877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1662283015260020, "dur":251360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662283015511387, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662283015511398, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662283015512711, "dur":1096834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662283016609551, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662283016609561, "dur":1737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662283016611331, "dur":154230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662283016765565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662283016765572, "dur":5912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662283016771523, "dur":450653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662283017222184, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662283017222197, "dur":1855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662283017224100, "dur":546159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662283017770266, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662283017770278, "dur":1992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662283017772313, "dur":482867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662283018255182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662283018255187, "dur":21769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662283018276990, "dur":631471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662283018908468, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662283018908480, "dur":1206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662283018909720, "dur":1408061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662283020317789, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662283020317802, "dur":1888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662283020319726, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1662283020319840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662283020325639, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1662283020326618, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1662283020326656, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662283020326693, "dur":1321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1662283020328050, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1662283020328087, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662283020328096, "dur":2391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1662283020330520, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1662283020330560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662283020330568, "dur":19566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1662283020350169, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1662283020350207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662283020350215, "dur":1274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1662283020351522, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1662283020351642, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662283020351656, "dur":833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1662283020352517, "dur":94416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1662283020446940, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662283020446981, "dur":1131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1662283020448148, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1662283020448186, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662283020448194, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1662283020449219, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1662283020449255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662283020449262, "dur":765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1662283020450058, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1662283020450095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662283020450102, "dur":894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1662283020451028, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1662283020451066, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662283020451073, "dur":763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1662283020451867, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1662283020451970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662283020451976, "dur":667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1662283020452673, "dur":913120, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662283014920481, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662283014920482, "dur":3643, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662283014924125, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1662283014924348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662283014925861, "dur":268557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1662283015194459, "dur":245620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283015440088, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662283015440102, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283015441738, "dur":49853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283015491599, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662283015491611, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283015492989, "dur":645332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283016138329, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662283016138341, "dur":1841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283016140381, "dur":110392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283016250779, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662283016250790, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283016251820, "dur":323160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283016574988, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662283016575000, "dur":5848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283016580888, "dur":183928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283016764823, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662283016764867, "dur":2071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283016766981, "dur":461505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283017228521, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662283017228532, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283017229894, "dur":540702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283017770603, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662283017770613, "dur":1864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283017772517, "dur":459325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283018231850, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662283018231862, "dur":24140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283018256071, "dur":322157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283018578235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662283018578245, "dur":29329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283018607614, "dur":530010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283019137634, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662283019137644, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283019139271, "dur":367228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283019506507, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662283019506521, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283019507763, "dur":662781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283020170552, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662283020170564, "dur":8318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283020178915, "dur":387886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283020566807, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662283020566819, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662283020568086, "dur":797793, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662283014915612, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662283014915613, "dur":7761, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662283014923375, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1662283014923478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662283014925595, "dur":3133356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1662283018058997, "dur":183849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662283018242853, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662283018242863, "dur":33499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662283018276403, "dur":877998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662283019154434, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662283019154445, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662283019155793, "dur":530031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662283019685830, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662283019685843, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662283019687888, "dur":958861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662283020646755, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662283020646765, "dur":10306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662283020657202, "dur":708821, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662283014911805, "dur":242, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662283014912047, "dur":10073, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662283014922131, "dur":129742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1662283015051878, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662283015052189, "dur":808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1662283015053036, "dur":148900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283015201943, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662283015201981, "dur":23018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283015225036, "dur":114111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283015339155, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662283015339283, "dur":1345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283015340669, "dur":541596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283015882270, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662283015882278, "dur":6977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283015889275, "dur":249162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283016138444, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662283016138456, "dur":1441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283016139936, "dur":98704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283016238647, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662283016238659, "dur":1686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283016240382, "dur":471349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283016711739, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662283016711751, "dur":2777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283016714575, "dur":316234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283017030816, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662283017030827, "dur":1498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283017032362, "dur":493710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283017526078, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662283017526088, "dur":5478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283017531609, "dur":114006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283017645623, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662283017645635, "dur":1293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283017646962, "dur":123831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283017770796, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662283017770804, "dur":2511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283017773352, "dur":481698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283018255056, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662283018255066, "dur":22303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283018277402, "dur":297521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283018574931, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662283018574944, "dur":1266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283018576249, "dur":346379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283018922635, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662283018922646, "dur":1185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283018923860, "dur":1721363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283020645230, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662283020645243, "dur":1759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662283020647043, "dur":718786, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662283014911887, "dur":185, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662283014912072, "dur":10242, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662283014922315, "dur":31573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1662283014953893, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662283014953901, "dur":1736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1662283014955663, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1662283014955744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662283014955751, "dur":3471034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1662283018426836, "dur":197714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662283018624558, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662283018624570, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662283018625881, "dur":1868815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662283020494703, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662283020494715, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662283020496143, "dur":869681, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662283014915673, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662283014915673, "dur":7298, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662283014922973, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1662283014923083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662283014925422, "dur":34344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1662283014959796, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1662283014959936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662283014959943, "dur":297226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1662283015257208, "dur":114653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662283015371869, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662283015371880, "dur":1777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662283015373704, "dur":1391722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662283016765432, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662283016765442, "dur":7025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662283016772506, "dur":106352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662283016878865, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662283016878875, "dur":1218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662283016880122, "dur":476505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662283017356635, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662283017356648, "dur":2210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662283017358899, "dur":562603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662283017921510, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662283017921522, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662283017923032, "dur":1231780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662283019154819, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662283019154831, "dur":2160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662283019157019, "dur":1771570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662283020928598, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662283020928612, "dur":4025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662283020932682, "dur":433321, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662283014918144, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662283014918145, "dur":5819, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662283014923965, "dur":20632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1662283014944602, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662283014944620, "dur":2121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1662283014946767, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1662283014946859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662283014947103, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1662283014948546, "dur":112767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1662283015061320, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662283015061332, "dur":1018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1662283015062389, "dur":103274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1662283015165670, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662283015165679, "dur":2742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1662283015168463, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1662283015168618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662283015168941, "dur":392378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1662283015561347, "dur":111380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662283015672764, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662283015672775, "dur":14747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662283015687554, "dur":594280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662283016281841, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662283016281851, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662283016283149, "dur":320487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662283016603645, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662283016603657, "dur":2142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662283016605837, "dur":432273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662283017038118, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662283017038129, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662283017039516, "dur":730706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662283017770229, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662283017770242, "dur":2390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662283017772673, "dur":151774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662283017924452, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662283017924462, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662283017925479, "dur":1405609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662283019331094, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662283019331104, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662283019332825, "dur":464013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662283019796846, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662283019796858, "dur":2226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662283019799122, "dur":694969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662283020494098, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662283020494108, "dur":1652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662283020495798, "dur":870011, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662283014920369, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662283014920370, "dur":1752, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662283014922131, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1662283014922288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662283014925451, "dur":30147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1662283014955626, "dur":309049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1662283015264681, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662283015264691, "dur":816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1662283015265538, "dur":300570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662283015566113, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662283015566122, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662283015567464, "dur":47406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662283015614877, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662283015614887, "dur":1759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662283015616681, "dur":1150092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662283016766780, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662283016766791, "dur":4968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662283016771797, "dur":417292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662283017189097, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662283017189109, "dur":4126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662283017193270, "dur":332658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662283017525933, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662283017525943, "dur":5679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662283017531662, "dur":714462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662283018246129, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662283018246139, "dur":11360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662283018257528, "dur":167292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662283018424828, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662283018424840, "dur":1628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662283018426509, "dur":12537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662283018439052, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662283018439063, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662283018440453, "dur":136250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662283018576709, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662283018576719, "dur":29923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662283018606675, "dur":550817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662283019157497, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662283019157507, "dur":4291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662283019161828, "dur":1727321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662283020889156, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662283020889166, "dur":2633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662283020891830, "dur":474204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662283014920292, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662283014920293, "dur":3664, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662283014923960, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1662283014924086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662283014926548, "dur":27101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1662283014953676, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1662283014953766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662283014953814, "dur":117128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1662283015070984, "dur":472827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice.exe" }}
+,{ "pid":12345, "tid":10, "ts":1662283015543819, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662283015543829, "dur":2416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice.exe" }}
+,{ "pid":12345, "tid":10, "ts":1662283015546284, "dur":1459245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662283017005542, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662283017005589, "dur":1728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662283017007357, "dur":216617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662283017223981, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662283017223997, "dur":5443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662283017229477, "dur":131524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662283017361008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662283017361020, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662283017362279, "dur":558983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662283017921273, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662283017921287, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662283017922676, "dur":147746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662283018070428, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662283018070438, "dur":1839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662283018072306, "dur":175875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662283018248186, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662283018248194, "dur":28434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662283018276663, "dur":1412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662283018278080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662283018278091, "dur":873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662283018278999, "dur":145778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662283018424785, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662283018424798, "dur":1651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662283018426491, "dur":511046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662283018937544, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662283018937555, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662283018939032, "dur":391902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662283019330941, "dur":52, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662283019331003, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662283019332386, "dur":350610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662283019683004, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662283019683047, "dur":1581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662283019684667, "dur":1224522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662283020909230, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662283020909244, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662283020910765, "dur":455240, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662283014912011, "dur":28, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662283014912040, "dur":10074, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662283014924806, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":11, "ts":1662283014924808, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662283014925655, "dur":1250, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":11, "ts":1662283014926911, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/app.info" }}
+,{ "pid":12345, "tid":11, "ts":1662283014926942, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662283014927179, "dur":32640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/app.info" }}
+,{ "pid":12345, "tid":11, "ts":1662283014959821, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1662283014959953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662283014959963, "dur":1766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1662283014961764, "dur":303687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283015265455, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662283015269947, "dur":955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283015270928, "dur":55627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283015326562, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662283015326920, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283015328111, "dur":26866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283015354985, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662283015354997, "dur":5699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283015360733, "dur":200049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283015560791, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662283015560813, "dur":1329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283015562165, "dur":284317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283015846488, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662283015846497, "dur":42449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283015888974, "dur":121354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283016010336, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662283016010348, "dur":1639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283016012062, "dur":283664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283016295733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662283016295743, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283016296857, "dur":313216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283016610080, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662283016610092, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283016611621, "dur":135212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283016746842, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662283016746855, "dur":1581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283016748477, "dur":594626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283017343111, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662283017343124, "dur":2726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283017345901, "dur":520627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283017866535, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662283017866547, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283017867921, "dur":707569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283018575497, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662283018575509, "dur":31804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283018607345, "dur":512925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283019120278, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662283019120291, "dur":1864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283019122190, "dur":864908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283019987107, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662283019987169, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283019988684, "dur":1371941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283021360634, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662283021360647, "dur":4808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662283021365495, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":11, "ts":1662283021365499, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662283014920533, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662283014920534, "dur":4160, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662283014924695, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1662283014924779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662283014925920, "dur":2070180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1662283016996146, "dur":527652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662283017523804, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662283017523815, "dur":7024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662283017530911, "dur":196056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662283017726974, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662283017726987, "dur":2326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662283017729347, "dur":337078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662283018066431, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662283018066442, "dur":34229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662283018100709, "dur":2643229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662283020743945, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662283020743955, "dur":5019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/2. Game/Space Shooter Practice_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662283020749009, "dur":617018, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662283021371537, "dur":3075, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1662283021388746, "dur": 24013, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662283021388150, "dur": 24650, "ph": "X", "name": "Write chrome-trace events", "args": {} },
